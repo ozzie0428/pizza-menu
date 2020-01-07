@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import SplashImage from './components/SplashImage'
 import Description from './components/Description';
 import Menu from './components/Menu'
+import Location from './components/Location'
 class App extends Component {
   render() {
     return (
@@ -12,6 +13,7 @@ class App extends Component {
       <SplashImage/>
       <Description/>
       <Menu/>
+      <Location/>
       </div>
 
     );
